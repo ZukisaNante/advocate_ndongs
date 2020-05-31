@@ -1,9 +1,9 @@
 body{
-  background-color: aliceblue;
+  background-color: whitesmoke;
   display: flexbox;
 }
 
-/* tags */
+/* TAGS */
 /* headers */
 h1{
   color: black;
@@ -25,10 +25,35 @@ p{
 
 /* links */
 a{
-  color: blue;
+  color: whitesmoke;
   transition: ease;
   transition-delay: 2s;
   text-transform: capitalize;
+ text-align: right;
 }
 
+ /* hover */
+ a:active{
+   color: brown;
+ }
+ a:hover{
+   color: white;
+   text-size-adjust: 16px;
+ }
+
+/* HEADER */
+.header{
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  border-bottom: 1px solid blue;
+}
+
+/* nav */
+.nav{
+  background-color: black;
+  /* color: white !important; */
+  /* height: 300px; */
+  /* width: 50%; */
+}
 
