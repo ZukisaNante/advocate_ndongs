@@ -25,21 +25,27 @@ p{
 
 /* links */
 a{
-  color: whitesmoke;
-  transition: ease;
-  transition-delay: 2s;
   text-transform: capitalize;
- text-align: right;
 }
 
- /* hover */
- a:active{
-   color: brown;
- }
- a:hover{
-   color: white;
-   text-size-adjust: 16px;
- }
+ /* unvisited link */
+a:link {
+  color: whitesmoke;
+}
+/* visited link */
+a:visited {
+  color: green ;
+}
+
+/* mouse over link */
+a:hover {  
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
 
 /* HEADER */
 .header{
